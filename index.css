@@ -1,0 +1,137 @@
+body,html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 15px 16px;
+    color: azure;
+    text-decoration: none;
+    font-family: 'Cardo', sans-serif;
+}
+
+
+.nav-option-container{
+    display: inline-block;
+    float: right;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 14px;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    color: azure;
+    font-family: 'Cinzel', serif;
+}
+.nav-container{
+    height: 60px;
+    width: 100vw;
+}
+.background{
+    
+    width: 100vw;
+    background-image: url("7080.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center; 
+}
+.background-title{
+    color: aliceblue;
+    font-size: 45px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Cinzel', serif;
+}
+.background-title-small{
+    font-size: 20px;
+}
+.body-title{
+    width: 100vw;
+    height: 70px;
+    background-image: url("Asset 2.png");
+    text-align: center;
+    font-size: 38px;
+    padding-top: 25px;
+    letter-spacing: 3px;
+    color: #DF1B1B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Slabo 27px', serif;
+}
+.background-arrows{
+    width: 60vw;
+    height: 100px;
+    margin-top: 8vh; 
+    margin-left: 45vw;
+    padding-bottom: 3vw;
+    background-image: url("arrows.png");
+    background-size: 13vw 80px;
+    background-repeat: no-repeat;  
+}
+
+
+/* middle */
+.doctor-container{
+   
+    width: 100vw;
+    background-color: #FFDCDC;
+}
+.position-title{
+    padding-top: 20px;
+    width: 100vw;
+    color: #DF1B1B;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    border-bottom: #DF1B1B dotted;
+}
+.doctor-container-proper{
+    width: 80vw;
+    margin : 30px 10%;
+    border: #CE2525 solid;
+    border-radius: 8px;
+    margin-bottom: 0;             
+}
+img{
+    margin-left: 26%;
+    height: 180px;
+    width: 140px;
+}
+
+.doctor-name{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cardo', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.write-up{
+    text-align: center;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Cardo' , sans-serif;
+}
